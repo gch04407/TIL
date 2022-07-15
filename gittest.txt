@@ -1,0 +1,15 @@
+# 로컬에서 만드는거
+git init #리파지토리 만듬
+git remote add origin 주소 #
+
+# 웹에서 가져오는것
+git clone 주소 # 생성
+
+####
+git add . # 만들어진거 다 커밋
+git add b.txt # 
+git status # 상태 보기
+git commit -m "add b.txt" # 커밋 추가
+git push -u origin master
+
+git log : git의 commit history 보기
